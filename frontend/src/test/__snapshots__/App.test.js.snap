@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; flex-direction: column; align-items: center; margin: 50px;"
+  >
+    <div
+      style="margin-bottom: 20px;"
+    >
+      <div>
+        <p
+          class="heading"
+        >
+          iTunes Search App
+        </p>
+        <p
+          class="text"
+        >
+          Search for content within the iTunes and Apple Bookstore
+        </p>
+        <p
+          class="text"
+        >
+          Your favorite items will be displayed at the bottom.
+        </p>
+      </div>
+      <input
+        placeholder="Enter search term"
+        style="padding: 10px; margin-right: 10px; border-radius: 10px;"
+        type="text"
+        value=""
+      />
+      <select
+        class="media-select"
+      >
+        <option
+          value="all"
+        >
+          All
+        </option>
+        <option
+          value="movie"
+        >
+          Movie
+        </option>
+        <option
+          value="podcast"
+        >
+          Podcast
+        </option>
+        <option
+          value="music"
+        >
+          Music
+        </option>
+        <option
+          value="musicVideo"
+        >
+          Music Video
+        </option>
+        <option
+          value="audiobook"
+        >
+          Audio Book
+        </option>
+        <option
+          value="shortFilm"
+        >
+          Short Film
+        </option>
+        <option
+          value="tvShow"
+        >
+          TV Show
+        </option>
+        <option
+          value="software"
+        >
+          Software
+        </option>
+        <option
+          value="ebook"
+        >
+          e-book
+        </option>
+      </select>
+      <button
+        class="search-button"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; align-items: center;"
+    />
+    <div>
+      <h2
+        class="favorite-heading"
+      >
+        Favorites
+      </h2>
+      <p
+        class="text"
+      >
+        Your list of favorite items
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.heading {
+  color: rgb(143, 225, 240);
+  text-align: center;
+  font-size: 30px;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+.track {
+  color: white;
+}
+
+.artist {
+  color: white;
+}
+
+.collection {
+  color: white;
+}
+
+.description {
+  color: white;
+}
+
+.released {
+  color: white;
+}
+
+.url {
+  color: rgb(143, 225, 240);
+  font-size: small;
+}
+
+.search-button {
+  color: white;
+  background-color: rgb(143, 225, 240);
+  border-radius: 10px;
+  cursor: "pointer";
+  padding: 10px;
+}
+
+.media-select {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.favorite-heading {
+  color: rgb(143, 225, 240);
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.favorite-button {
+  background-color: white;
+  float: right;
+  border-radius: 10px;
+}
+
+.remove-button {
+  background-color: white;
+  border-radius: 10px;
+}
