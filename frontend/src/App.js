@@ -25,18 +25,20 @@ const App = () => {
     }
   };
 
+  // Function to handle favorite functionality
   const handleFavorite = (result) => {
     console.log("Adding to favorites:", result); // Add this log to check the item being added
     setFavorites((prevFavorites) => [...prevFavorites, result]);
   };
 
+  // Function to remove an item from favorites
   const handleRemoveFavorite = (index) => {
     const updatedFavorites = [...favorites];
     updatedFavorites.splice(index, 1);
     setFavorites(updatedFavorites);
   };
 
-  // JSX code representing the structure of the app, styled using inline styles
+  // JSX code representing the structure of the app, styled using inline styles and css
   return (
     <div
       style={{
